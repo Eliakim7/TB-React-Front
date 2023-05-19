@@ -1,0 +1,146 @@
+
+h2 {font-size: 36px;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-bottom: 10px;}
+
+p {font-size: 18px;font-family: arial;}
+
+.optimal-width {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dessert-cc { 
+  display: flex;
+  height: 300px;
+
+  @media all and (max-width:768px) {
+    padding-left: 10px;
+  }
+    .intro-dessert {
+      height: 100px;
+      width: 50%;
+         p  {
+           border: 2px solid black;
+           border-radius: 10px;
+           width: 80%;
+           height: 150px;
+           padding-top: 10px;
+           padding-left: 10px;
+           padding-right: 10px;
+        }
+}
+  .cc-dessert {
+  width: 50%;
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    .filAriane{
+    height: 50%;
+    display: flex;
+    padding-top: 100px;
+      p{
+      padding-top: 10px;
+      padding-left: 50px;
+      margin-top: 18px;
+}}
+    .ariane-vide {
+    height: 60px;
+    width: 60px;
+    background: lightgray;
+    border-radius: 10px;
+    margin: 10px;
+}
+}
+}
+
+.dessert {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+      .dessert-img {
+        width: 30%;
+          img {
+            width: 250px;
+            height: 250px;
+            border-radius: 20px;
+          }
+        }
+      .dessert-desc  {
+        width: 50%;
+        text-align: justify;
+        @media all and (max-width:768px) {
+          width: 40%;
+        }
+          h2 {
+            @media all and (max-width:768px) {
+              text-align: center;
+              }
+
+          }
+      }
+      .dessert-price {
+        width: 20%;
+
+        @media all and (max-width:768px) {
+          width: 10%;
+        }
+      }
+}
+
+.dessert ul {
+  width: 80%;
+
+  @media all and (max-width:768px) {
+    width: 100%;
+  }
+}
+.dessert li {
+  border: 3px solid pink;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 20px;
+  :hover {
+    background: pink;
+      h2 {
+        color: white;
+      }
+  }
+}
+
+.dessert-desc { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+.dessert-price { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.next {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  .callToAction {
+    padding: 30px 100px;
+    font-size: 30px;
+  }
+}
+
+label {
+  display: flex;
+
+  @media all and (max-width:768px) {
+    justify-content: space-between;
+  }
+
+}
+/* input {display: none;} */
+button {
+  border: none;
+}

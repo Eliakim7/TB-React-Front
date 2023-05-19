@@ -1,0 +1,89 @@
+.header { 
+  position: relative;
+  background: rgb(7, 3, 3);
+  height: 150px;
+  margin-bottom: 100px;
+
+    nav {
+      width: 50%;
+      height: 300px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-end;
+    }
+
+  .navigation  {
+      margin-top: 20px;
+      display: flex;
+      justify-content:space-between;
+      padding-right: 30px;
+          a {
+            color: rgb(252, 253, 253);
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: bold;
+            transition: 0.5s;
+            font-family: 'Roboto', sans-serif;
+                &:hover {
+                  color: pink}
+                }
+              }
+  .optimal-width {
+      position: absolute;
+      max-width: 1440px;
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+        .logo {
+         width: 20%;}
+        }
+      nav {
+        @media all and (max-width:768px) {
+          display: none;
+        }
+      }
+
+      .ouvrir {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: none;
+    
+        color: white;
+    
+        @media all and (max-width:768px) {
+          display: unset;
+        }
+      }
+ .header-mobile {
+        position: absolute;
+        width: 200px;
+        right: -200px;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background: pink;
+        padding: 20px;
+        transition: 0.5s;
+          a{
+            text-decoration: none;
+            font-weight: bold;
+          }
+          .callToAction {
+            background: white;
+          }
+        * {
+          color: black;
+        }
+        &.open {
+          right: 0;
+          @media all and (min-width:768px) {
+            right: -200px;
+          }
+        }
+
+} 
+}  

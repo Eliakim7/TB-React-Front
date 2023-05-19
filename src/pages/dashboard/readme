@@ -1,0 +1,6 @@
+1- Créer un dossier dashboard
+2- Créer un fichier index.js
+3- Taper rafce pour utiliser le snippet
+4- Créer un fichier boisson.js
+5- Créer un fichier nav.js puis un lien pour une route vers la page boisson
+6- Rajouter la route dans le fichier app.js et tester la route

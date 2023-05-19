@@ -1,0 +1,3 @@
+@mixin container            {width: 1300px;margin: 0 auto;}
+@mixin flex                 {display: flex;flex-wrap: wrap;}
+@mixin optimal-width         {max-width: 1440px;margin: 0 auto;width: 100%;}
